@@ -40,7 +40,7 @@ This project visualizes historical stock data for companies in the **FTSE 100 in
 ## 🙋‍♀️ Author
 
 Kosi Etimbuk-Udoekong  
-[www.linkedin.com/in/kosi-etimbuk-udoekong | [GitHub](https://github.com/)
+[www.linkedin.com/in/kosi-etimbuk-udoekong | [https://github.com/Kosi-E
 
 ---
 
