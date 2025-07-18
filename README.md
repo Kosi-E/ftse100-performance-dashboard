@@ -1,57 +1,47 @@
-# 📊 FTSE 100 Performance Dashboard
+# 📊 FTSE 100 Stock Dashboard
 
-This project visualizes the financial performance of selected FTSE 100 companies using live data from Yahoo Finance, transformed via Python and visualized in Power BI.
+This project visualizes historical stock data for companies in the **FTSE 100 index** using Power BI. It uses data from Yahoo Finance and highlights trends, average closing prices, and year-on-year changes.
 
----
+## 📁 Files Included
 
-## 💡 Features
+- `ftse100_stocks.csv` – List of FTSE 100 company tickers
+- `get_ftse100_data.py` – Python script to fetch historical stock data
+- `yFinance.ipynb` – Jupyter notebook used for data retrieval and preprocessing
+- `FSTE_100_Dashboard.pbix` – Power BI file with complete dashboard
+- `FSTE_100_Dashboard_page_1.jpg` & `FSTE_100_Dashboard_page_1.jpg` – Image previews of the dashboard
+- `README.md` – Project overview (this file)
 
-- 📈 **Average Closing Price** across selected tickers
-- 🔁 **Year-over-Year % Change** calculation per company
-- 🔺🔻 **Trend icons** to show performance direction
-- 📅 Filter by **year**, **quarter**, and **ticker**
-- 🔄 Python-powered auto-refreshable data
+## 📈 Dashboard Highlights
 
----
+- Average closing price by company and year
+- Year-on-Year (YoY) stock performance changes
+- Trend indicator for quick interpretation
+- Filters to explore data by company and year
 
-## ⚙️ Tools Used
+## ⚙️ How to Use
 
-- **Python** (`yfinance`, `pandas`)
-- **Power BI Desktop**
-- **DAX** for YoY and dynamic icons
-- **CSV-based data refresh**
+1. Run the Python script (`get_ftse100_data.py`) or Jupyter notebook (`yFinance.ipynb`) to fetch updated stock data using yFinance.
+2. Open the Power BI file (`FSTE_100_Dashboard.pbix`).
+3. Refresh data to update visuals with new stock information.
 
----
+## 📷 Preview
 
-## 🧠 Skills Demonstrated
+| Dashboard Page 1 | Dashboard Page 2 |
+|------------------|------------------|
+| ![Page 1](FSTE_100_Dashboard_page_1.jpg) | ![Page 2](FSTE_100_Dashboard_page_2.jpg) |
 
-- Data collection from financial APIs
-- Data cleaning and transformation
-- Building automated, insightful dashboards
-- Visual storytelling for financial metrics
-- Use of advanced DAX calculations
+## 🛠 Tools Used
 
----
+- [Power BI](https://powerbi.microsoft.com/)
+- [Python](https://www.python.org/)
+- [yFinance](https://pypi.org/project/yfinance/)
+- GitHub
 
-## 🚀 How to Use
+## 🙋‍♀️ Author
 
-1. Clone this repo
-2. Run `get_ftse100_data.py` to download/refresh data
-3. Open `FTSE100_Dashboard.pbix` in Power BI
-4. Filter by company or time range and explore!
-
----
-
-## 📸 Dashboard Preview
-
-**Page 1: FTSE 100 Price Trends**
-![Page 1](dashboard_page1.jpg)
-
-**Page 2: KPI Summary & YoY Comparison**
-![Page 2](dashboard_page2.jpg)
+Kosi Etimbuk-Udoekong  
+[www.linkedin.com/in/kosi-etimbuk-udoekong | [GitHub](https://github.com/)
 
 ---
 
-**Author**: *Your Name*  
-**Date**: July 2025  
-**Status**: ✅ Complete
+Let me know if you'd like to personalize it more or want help embedding GitHub badges or interactivity.
